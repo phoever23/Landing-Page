@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*the header part*/
+.header {
+    background-color: #1F2937;
+    color:white;
+    padding:20px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.header-logo img{
+    max-width: 10%;
+    height:auto;
+}
+
+
+.header-links {
+    display: flex;
+    justify-content: space-around;
+    gap:30px;
+    padding-top: 20px;
+}
+
+.header-link a {
+    text-decoration: none;
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:20px;
+    padding-top: 50px;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight:bolder;
+    color:#F9FAF8;
+}
+
+.header-subtext {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3882F6;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.header-right {
+    height:300px;
+}
+.header-right img{
+    height:100%;
+    object-fit: cover;
+}
+
+/* the members part */
+.member-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    margin:50px auto;
+}
+
+.member-pics {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding:10px 150px;
+    margin-bottom: 20px;
+}
+
+.member-pics img {
+    width:100%;
+    height: auto;
+}
+
+.member-pics p {
+    text-align: center;
+}
+
+#pic-source {
+    text-align: right;
+    padding-right: 170px;
+    font-size:15px;
+    color:grey;
+}
+/* the quote part */
+.quote {
+    background-color: #E5E7EB;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding:100px 150px;
+}
+
+#quote-name {
+    text-align: right;
+    padding-right:40px;
+}
+
+/* the cheer up part */
+#cheer {
+    margin:100px 150px;
+    width: 80%;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+
+.cheer-up p {
+    font-size: 36px;
+    color:white
+}
+
+#call {
+    font-weight: bold;
+}
+
+.cheer-up button {
+    margin-top: 80px;
+    margin-right: 50px;
+    border:2px solid white;
+    font-size: 15px;
+}
+
+/* the footer part  */
+.footer {
+    background-color: #1F2937;
+    color:white;
+    text-align: center;
+    padding:20px 250px;
+}
